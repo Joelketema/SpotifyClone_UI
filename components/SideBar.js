@@ -57,7 +57,7 @@ const SideBar = () => {
                 {
                     playlists.map(playlist=>{
                         return (
-                        <Box cursor={"arrow"}>
+                        <Box cursor={"arrow"} key={playlist}>
                             <Text>{playlist}</Text>
                         </Box>
                         )

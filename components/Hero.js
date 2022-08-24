@@ -16,7 +16,7 @@ const Hero = () => {
           {
               list.map(l => {
                   return (
-                     <GridItem> <LargeCard title={l}/> </GridItem>               
+                      <GridItem> <LargeCard key={l} title={l}/> </GridItem>               
                   )
               }) 
               }
