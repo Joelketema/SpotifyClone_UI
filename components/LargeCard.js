@@ -1,6 +1,7 @@
 import { Box, Button, Text,Image } from "@chakra-ui/react"
 import { motion } from "framer-motion"
 import PlayCircleRoundedIcon from '@mui/icons-material/PlayCircleRounded';
+import {useState} from "react"
 
 const spotBlack = "#010103"
 const spotGrey = "#F7F7F7"
@@ -8,9 +9,17 @@ const spotDark = "#202124"
 const spotGreen = "#1DB954"
 
 
-const LargeCard = ({title}) => {
+const LargeCard = ({ title }) => {
+  const [show,setShow] = useState(false)
   return (
-      <Box cursor={"pointer"}  p={2} pl={0} pt={0} pb={0} justifyContent={"space-between"} rounded={"md"} alignItems={"center"} color={spotGrey} bg={"#202124"} display={"flex"} boxShadow={"lg"} maxWidth={"95%"} minWidth={"95%"}>
+    <Box cursor={"pointer"} p={2} pl={0} pt={0} pb={0} justifyContent={"space-between"} rounded={"md"} alignItems={"center"} color={spotGrey} bg={"#202124"} display={"flex"} boxShadow={"lg"} maxWidth={"95%"} minWidth={"95%"}
+      
+    onMouseOver={() => {
+        
+        setShow(true)
+      }}
+      onMouseLeave={()=>setShow(false)}
+    >
           <Box display={"flex"} gap={3} justifyContent={"center"} alignItems={"center"}>
               
             <Box>
@@ -24,7 +33,7 @@ const LargeCard = ({title}) => {
             </Box>
           
         </Box>
-          <Box>
+          <Box display={show ?"block" : "none"}>
               <PlayCircleRoundedIcon sx={{color:spotGreen,fontSize:"55px"}} />
           </Box>
     </Box>

@@ -7,7 +7,7 @@ const spotGreen = "#1DB954"
 
 export const CustomText = ({text,size}) => {
   return (
-      <Box color={spotGrey} textAlign={"left"} bg={"transparent"} fontWeight={"bold"} w={"60%"}>
+      <Box color={spotGrey} textAlign={"left"} bg={"transparent"} fontWeight={"bold"} w={"56%"}>
           <Text fontSize={size}>{text}</Text>
       </Box>
   )

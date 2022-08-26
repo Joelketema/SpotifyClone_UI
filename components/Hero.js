@@ -9,10 +9,10 @@ const spotGrey = "#F7F7F7"
 const spotGreen = "#1DB954"
 
 const Hero = () => {
-    const list=["windows down","Liked Songs","Top Hits of 2015","tiktok august 2022","Daily Mix 1","Sidist(Vl)" ]
+    const list=["windows down","Liked Songs","Top Hits of 2015","tiktok august 2022"]
   return (
       <Box w={"90%"} >
-          <Grid pt={5} pl={5}  ml={180} w={"90%"} gap={5} templateColumns={"repeat(3,1fr)"} >
+          <Grid pt={5} pl={5}  ml={180} w={"80%"} gap={5} templateColumns={"repeat(2,1fr)"} >
           {
               list.map(l => {
                   return (
