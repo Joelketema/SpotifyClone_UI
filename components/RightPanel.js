@@ -29,7 +29,7 @@ const RightPanel = () => {
             </Box>
 
             <Box display={"flex"}  flexDirection={"column"} mt={2} gap={2} w={"90%"}>
-                <Image src={"/Capture.png"} h={"100%"}  />
+                <Image src={"/capture.png"} h={"100%"}  />
 
             </Box>
 
