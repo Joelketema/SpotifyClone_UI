@@ -30,10 +30,10 @@ const spotDark = "#202124"
   ]
   return (
     <Box w={"60vw"} pt={5} mt={"5"} >
-        <Box color={"white"} display={"flex"} flexDirection={"column"}  textAlign={"left"} bg={"transparent"} fontWeight={"bold"} w={"95%"} ml={"90px"}>
+        <Box color={"white"} display={"flex"} flexDirection={"column"}  textAlign={"left"} bg={"transparent"} w={"95%"} ml={"90px"}>
         <Text fontSize={"lg"}>{title}</Text>
         <Box textAlign={"right"}>
-          <Text fontSize={"smaller"} fontWeight={"bold"}>SEE ALL</Text>
+          <Text fontSize={"smaller"} >SEE ALL</Text>
         </Box>
       </Box>
      

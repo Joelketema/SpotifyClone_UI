@@ -28,7 +28,7 @@ export default function Topbar() {
 
           <Box w={"27%"} ml={650} display={"flex"} bg={"transparent"} gap={2} justifyContent={"center"} alignItems={"center"}>
                 <Box cursor={"pointer"} _hover={{transform:"scale(1.1)",border:`1px solid% ${spotGrey} `}} minWidth={"0%"} bg={spotBlack} border={`0.8px solid ${spotGrey}`} rounded={"full"} p={2} justifyContent={"center"} alignItems={"center"} w={"50%"} display={"flex"} gap={3}>
-                  <Text>Upgrade</Text>
+                  <Text>UPGRADE</Text>
               </Box>
 
               <Box bg={spotBlack} rounded={"full"} p={1} justifyContent={"center"} alignItems={"center"} w={"35%"} display={"flex"} gap={3}>

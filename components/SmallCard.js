@@ -33,8 +33,8 @@ const SmallCard = ({ topTitle, bottomTitle }) => {
           </Box>
 
         <Box display={"flex"} flexDirection={"column"} textAlign={"left"} gap={2} w={"83%"}>
-          <Text fontSize={"md"} fontWeight={"bold"}>{topTitle} </Text>
-          <Text fontSize={"small"} color={spotGrey} fontWeight={"bold"}>{bottomTitle}</Text>
+          <Text fontSize={"md"}>{topTitle} </Text>
+          <Text fontSize={"small"} color={spotGrey} >{bottomTitle}</Text>
         </Box>
           </Box>
       </Box>

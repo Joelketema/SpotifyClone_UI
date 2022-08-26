@@ -29,7 +29,7 @@ const LargeCard = ({ title }) => {
             </Box>
 
             <Box>
-                <Text fontSize={"md"} fontWeight={"bold"}>{title}</Text>
+                <Text fontSize={"md"} >{title}</Text>
             </Box>
           
         </Box>
