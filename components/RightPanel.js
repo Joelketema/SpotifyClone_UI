@@ -2,14 +2,14 @@
 import { Box, Button,Image, Text,Divider } from "@chakra-ui/react"
 import { motion } from "framer-motion"
 import PersonAddAltIcon from '@mui/icons-material/PersonAddAlt';
-import pic from "../public/Capture.png"
+// import pic from "./Capture.png"
 const spotBlack = "#010103"
 const spotGrey = "#b3b3b3"
 const spotGreen = "#1DB954"
 const swhite ="#212121" 
 
 const RightPanel = () => {
-    console.log(pic)
+ 
     const playlists = ["Stranger Things Official Playlist","Top Female Artists of 2020 USA","The Weeknd","Slow"]
     return (
         <Box position={"absolute"} top={0} right={0} bg={spotBlack} h={"100vh"} w={"20%"} p={2}  pl={3} color={spotGrey} display={"flex"} flexDirection={"column"}>
@@ -29,7 +29,7 @@ const RightPanel = () => {
             </Box>
 
             <Box display={"flex"}  flexDirection={"column"} mt={2} gap={2} w={"90%"}>
-                <Image src={pic.src} h={"100%"}  />
+                <Image src={"/Capture.png"} h={"100%"}  />
 
             </Box>
 
