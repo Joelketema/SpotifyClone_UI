@@ -2,7 +2,7 @@
 import { Box, Button,Image, Text,Divider } from "@chakra-ui/react"
 import { motion } from "framer-motion"
 import PersonAddAltIcon from '@mui/icons-material/PersonAddAlt';
-import pic from "../public/pic/Capture.png"
+import pic from "../public/Capture.png"
 const spotBlack = "#010103"
 const spotGrey = "#b3b3b3"
 const spotGreen = "#1DB954"
