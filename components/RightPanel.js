@@ -12,7 +12,7 @@ const RightPanel = () => {
  
     const playlists = ["Stranger Things Official Playlist","Top Female Artists of 2020 USA","The Weeknd","Slow"]
     return (
-        <Box position={"absolute"} top={0} right={0} bg={spotBlack} h={"100vh"} w={"20%"} p={2}  pl={3} color={spotGrey} display={"flex"} flexDirection={"column"}>
+        <Box position={"absolute"} zIndex={15} top={0} right={0} bg={spotBlack} h={"100vh"} w={"20%"} p={2}  pl={3} color={spotGrey} display={"flex"} flexDirection={"column"}>
             <Box display={"flex"} flexDirection={"column"} mt={3} gap={2} w={"100%"}>
                 <motion.div  whileHover={{color:"red"}} transition={{delay:0.5,duration:1}}>
                 <Box display={"flex"} cursor={"pointer"} justifyContent={"space-between"} alignItems={"center"} textAlign={"center"}  borderRadius={"md"} gap={5} w={"100%"} p={2} fontSize={"14px"} fontWeight={"medium"}>
