@@ -89,7 +89,7 @@ function SearchShow({items,title}) {
         {
             items.map(i => {
                 return (
-                  <GridItem mt={5}>  <LargeBox key={i.title} size={"40%"} min={"35vw"} font={"x-large"} max={"35vw"} title={i.title} image={i.image} color={i.color} /></GridItem>        )
+                  <GridItem mt={5} key={i.title}>  <LargeBox  size={"40%"} min={"35vw"} font={"x-large"} max={"35vw"} title={i.title} image={i.image} color={i.color} /></GridItem>        )
             })
             }
         
@@ -108,7 +108,7 @@ function Browse({Browseitems,title}) {
         {
             Browseitems.map(i => {
                 return (
-                  <GridItem>  <LargeBox key={i.title} size={"80%"}  min={"17vw"} font={"lg"} max={"17vw"}  title={i.title} image={i.image} color={i.color} />
+                  <GridItem key={i.title}>  <LargeBox  size={"80%"}  min={"17vw"} font={"lg"} max={"17vw"}  title={i.title} image={i.image} color={i.color} />
                 
                 </GridItem>)
             })
